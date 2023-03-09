@@ -1,0 +1,51 @@
+
+/* Pseudo Element*/
+
+p::first-line{
+font-weight: bolder;
+color: darkred;
+word-spacing: 2px;
+letter-spacing: 3px;
+font-style: italic;
+}
+p::first-letter{
+    font-size: 50px;
+color: chartreuse;
+background-color: crimson;
+font-style: italic;
+}
+
+/* Pseudo Class*/
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+ul li:first-child{
+    background-color: cadetblue;
+}
+
+ul li:last-child{
+    background-color: green;
+}
+
+a:visited{
+    color: rgb(12, 245, 233);
+}
+
+a:hover{
+    color: white;
+    background-color: darkmagenta;
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    border: 2 solid red;
+    margin-bottom: 10px;
+    
+}

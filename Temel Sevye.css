@@ -1,0 +1,12 @@
+h1{
+    color: rgb(187, 255, 0);
+    font-size: 35px;
+    text-align: center; border: 1px solid pink;
+}
+
+p{
+color: rgb(20, 33, 220);
+font-size: 40px;
+text-align: center; 
+border: 3px solid mediumblue;
+}
